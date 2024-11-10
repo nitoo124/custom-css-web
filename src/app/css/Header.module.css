@@ -1,0 +1,146 @@
+.header{
+
+   position: sticky;
+   top: 0;
+ 
+}
+
+.main{
+
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1rem ;
+    padding-bottom: 1rem ;
+    background-color: orange  ;
+ 
+}
+
+
+.logo{
+    margin-left: 3rem;
+}
+
+.logo h2{
+    font-weight: 700;
+    font-size: 1.875rem ;
+    line-height: 2.25rem 
+
+}
+
+
+
+.nav{
+    font-size: 1.125rem ;
+    line-height: 1.75rem;
+    font-weight: 600;
+    margin-right: 3rem;
+  
+}
+
+.nav ul{
+    display: flex;
+    gap: 3rem;
+    list-style: none;
+    
+   
+}
+
+.nav ul .links {
+    text-decoration: none;
+    
+}
+
+.nav ul .links li{
+    padding: 4px 8px;
+    border-radius: 8px;
+    color: white;
+
+}
+
+.nav ul .links li:hover{
+    background-color: #919191;
+    color: w919191hite;
+}
+
+.mobicons{
+    margin-right: 1.25rem ;
+    display: none;
+    
+}
+
+.mobNav{
+    display: none;
+}
+
+
+
+/* css for mob devices */
+@media only screen and (max-width: 600px) {
+   .nav{
+    position: fixed;
+    left: 0;
+    display: none;
+    width: 100%;
+   }
+   .mobNav{
+    display: none;
+    text-align: center;
+    width: 100%;
+    
+   
+   
+}
+
+
+.mobNav ul{
+    padding-top: 2.5rem ;
+    padding-bottom: 2.5rem;
+    flex-direction: column;
+     
+    background-color: #919191;
+    font-size: 1.125rem;
+    line-height: 1.75rem ;
+    font-weight: 700;
+
+    
+   
+    
+}
+.mobNav ul .links{
+    text-decoration: none;
+    width: 100%;
+    ;
+} 
+.mobNav ul .links li{
+    color: white;
+    list-style: none;
+    margin-top: 1.5rem
+    
+}
+
+.mobNav ul .links li:hover{
+   background-color: white;
+   color: #919191;
+    
+}
+
+.mobicons{
+    margin-right: 1.25rem ;
+    display: block;
+   background-color: white;
+   border: none;
+    
+}
+.showMwnu{
+    display: block;
+    position: fixed;
+    left: 0;
+    text-align: center;
+    width: 100%;
+    
+   
+   
+}
+  }
+
+

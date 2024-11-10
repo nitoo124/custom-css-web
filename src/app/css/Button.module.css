@@ -1,0 +1,20 @@
+.button{
+
+    font-weight: 600;
+    font-size: 1.3rem;
+    background-color: orange ;
+    padding: 0.5rem;
+    padding-left: 1rem ;
+    padding-right: 1rem;
+    color: white;
+    border: none;
+    border-radius: 0.75rem ;
+}
+
+.button:hover{
+  background-color: #d8d7da  ;
+  color: black;
+
+}
+
+
