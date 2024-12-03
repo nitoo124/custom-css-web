@@ -11,10 +11,10 @@ function Hero() {
             {/* content section */}
             <section className={styles.leftbar}>
                 <h1>Eat Like No One<br/> Is Watching</h1>
-                <p className='mt-3'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. At hic dignissimos
+                <p className=''>Lorem, ipsum dolor sit amet consectetur adipisicing elit. At hic dignissimos
                     error officia inventore! Temporibus eveniet libero id molestiae, numquam qui inventore ab
                     iste, tempore dolorum fugiat hic animi ut.</p>
-                <div className='mt-3'>
+                <div>
                     <Button text='Learn More' />
                 </div>
 
