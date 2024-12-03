@@ -80,7 +80,7 @@
     position: fixed;
     left: 0;
     display: none;
-    width: 100%;
+    width: 100vh;
    }
    .mobNav{
     display: none;
